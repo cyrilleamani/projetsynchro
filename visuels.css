@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #002633;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+	font-size: 25px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+span{
+	color: #E4A600;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #E4A600;
+    transition: .4s;
+}
+
+/* disposition visuel */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    height: 100vh;
+}
+h1 {
+    color: #E4A600;
+    text-align: center;
+    font-size: 40px;
+    font-family: Poppins, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1300px;
+    margin: 70px auto 0;
+    /* background: crimson; */
+}
+.item {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: #002633;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #E4A600;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#E4A600;
+	bottom: 35px;
+	font-size: 14px; 
+}
